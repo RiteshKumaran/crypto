@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #1a1a1c;
   color: #fff;
 }
@@ -19,24 +19,18 @@
 
 .coin-search {
   margin-bottom: 64px;
-  
 }
 
 .coin-text {
   margin-bottom: 32px;
   text-align: center;
 }
-.sort{
+.sort {
   height: 50px;
-  background-image: linear-gradient(
-    -225deg,
-    #ac32e4 0%,
-    #7918f2 48%,
-    #4801ff 100%
-  );
+  background-image: linear-gradient(-225deg, #ac32e4 0%, #7918f2 48%, #4801ff 100%);
   margin-left: 10px;
+  border-radius: 4px;
   padding: 0 16px;
-  
 }
 
 .coin-input {
@@ -45,16 +39,68 @@
   height: 50px;
   border-radius: 4px;
   border: none;
-  background-image: linear-gradient(
-    -225deg,
-    #ac32e4 0%,
-    #7918f2 48%,
-    #4801ff 100%
-  );
+  background-image: linear-gradient(-225deg, #ac32e4 0%, #7918f2 48%, #4801ff 100%);
 
   color: #e2e2e2;
 }
 
 .coin-input::placeholder {
   color: #e2e2e2;
+}
+.dropbtn {
+  border: none;
+  height: 50px;
+  padding-left: 16px;
+  background-image: linear-gradient(-225deg, #ac32e4 0%, #7918f2 48%, #4801ff 100%);
+  margin-left: 10px;
+  border-radius: 4px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.sort-by {
+  height: 50px;
+  padding-left: 16px;
+  background-image: linear-gradient(-225deg, #ac32e4 0%, #7918f2 48%, #4801ff 100%);
+  margin-left: 10px;
+  border-radius: 4px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.coin-title {
+  margin: 40px;
+  color: rgb(166, 128, 236);
+}
+
+.coin-title2 {
+  padding-left: 16px;
+}
+.coin-title3 {
+  padding-left: 30px;
+}
+.coin-title4 {
+  padding-right: 27px;
+  margin-right: 2px;
+}
+.coin-title5 {
+  padding-right: 100px;
+  margin-right: 0px;
+}
+.coin-title6 {
+  padding-right: 100px;
+}
+.coin-row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #d7d7d7;
+  width: 900px;
 }
